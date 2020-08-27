@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <undo />
+    <undo2 />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Undo from './assets/undo.svg'
+import Undo2 from '../public/undo.svg'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Undo,
+    Undo2
   }
 });
 </script>
